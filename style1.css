@@ -5,7 +5,6 @@
 
 strong {
 	color: red;
-	font-family: helvetica; 
 }
 
 h1 {
@@ -82,3 +81,67 @@ i.e. Keep It Simple Stupid */
 	margin-left: 2.5em;
 }
 
+/* This shows the difference between id and class attributes, as well as shows which of the 
+two attributes will get priority. Answer = the more specific selector gets priority. */
+
+.key {
+	color: green;
+	text-align: right;
+}
+
+#principal {
+	font-weight: bolder;
+	color: red;
+	text-align: center;
+}
+
+#principal:hover {
+	font-weight: lighter;
+}
+
+#data-table-1 td:first-child {
+	font-weight: bolder;
+}
+#data-table-1 td:first-child + td {
+	font-family: monospace;
+}
+#data-table-1 td:first-child + td + td {
+	font-family: helvetica;
+}
+
+
+.carrot {
+	color: orange;
+}
+
+.spinach {
+	color: green;
+}
+
+#first {
+	font-style: italic;
+}
+
+a.homepage:link, a.homepage:visited {
+	padding: 1px 10px 1px 10px;
+	color: #fff;
+	background: #666;
+	border-radius: 3px;
+	border: 1px outset rgba(50,50,50,.5);
+	font-family: georgia, serif;
+	font-size: 16px;
+	font-style: italic;
+	text-decoration: none;
+}
+
+a.homepage:hover, a.homepage:focus, a.homepage:active {
+	background-color: #333;
+}
+
+div.menu-bar ul ul {
+	display: none;
+}
+
+div.menu-bar li:hover > ul {
+	display: block;
+}
