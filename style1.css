@@ -172,3 +172,25 @@ body {
 	background-repeat: no-repeat;
 	background-position: right top;
 }
+
+/* Here some examples of working with lists. */
+
+ul.a {
+	list-style-type: circle;
+}
+
+ul.b {
+	list-style-type: square;
+}
+
+ol.c {
+	list-style-type:upper-roman;
+}
+
+ol.d {
+	list-style-type:lower-alpha;
+}
+
+ul.purple {
+	list-style-image: url('img/sqpurple.gi'f);
+}
