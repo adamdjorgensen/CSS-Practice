@@ -14,13 +14,14 @@ h1 {
 	font: 70px Helvetica, Sans-Serif;
 	letter-spacing: -5px;
 	color: rgba(0,0,255,0.5);
+	text-align: left;
 }
 
 h1:after{
-	content: "CSS Practice";
-	position: absolute; left: 4px; top: 2px;
-	color: rgba(255,0,0,0.5);
 	white-space: nowrap;
+	content: "CSS Practice";
+	position: absolute; left: 4px; top: 3px;
+	color: rgba(255,0,0,0.5);
 }
 
 h2, h3 {
