@@ -1,0 +1,68 @@
+/* This is a practice CSS document */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
+
+
+strong {
+	color: red;
+	font-family: helvetica; 
+}
+
+h1, h2 {
+	color: green;
+	margin: 10px;
+}
+
+.font {
+	background-color: #EDEDED;
+	font-family: 'Montserrat Alternates', sans-serif;
+	margin: 10px;
+	font-size: 2em;
+}
+
+/* This shows how you can use classes with CSS */
+
+.paragraph {
+	margin: 5px;
+	font-family: courier;
+	line-height: 1.5;
+}
+
+/* This shows how you can use ID with CSS */
+
+#quote {
+	margin-left: 110px;
+	font-size: 150%
+}
+
+/* This shows how you can join 'selectors' for more specific rules.
+
+For example, in this instance, the div#quote is matching all id's with #quote, but 
+only when it is a div. */
+
+div#quote {
+	color: blue;
+}
+
+/* This shows how you can use shorthand techniques to combine several related CSS properties 
+to get the same result.
+
+For example, these two div classes will look the same.
+
+i.e. Keep It Simple Stupid */
+
+.textbox1 {
+	border: 2px solid black;
+	margin: 1em 1.5em 2em 2.5em;
+}
+
+.textbox2 {
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	margin-top: 1em;
+	margin-right: 1.5em;
+	margin-bottom: 2em;
+	margin-left: 2.5em;
+}
+
