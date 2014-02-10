@@ -145,3 +145,30 @@ div.menu-bar ul ul {
 div.menu-bar li:hover > ul {
 	display: block;
 }
+
+/* This is an example of a universal selector. This would show a black border around every element 
+on the page. It is commented out just to show as an example.
+
+* {
+	border: 1px solid #000000;
+}
+
+*/
+
+/* Attribute selectors allow you to select elements based on the attributes they contain. 
+For example, you can select every <img> element with an alt attribute using the following selector. 
+It is mostly used for accessibility testing (i.e. the 'alt' tag)
+
+img[alt] {
+	border: 1 px solid #000000;
+}
+
+*/
+
+/* This creates a background image that doesn't repeat and is in a specific position. */
+
+body {
+	background-image: url('img/katy_perry.png');
+	background-repeat: no-repeat;
+	background-position: right top;
+}
